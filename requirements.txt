@@ -1,0 +1,6 @@
+os
+Flask
+PyCryptodome
+opencv-python
+hashlib
+numpy

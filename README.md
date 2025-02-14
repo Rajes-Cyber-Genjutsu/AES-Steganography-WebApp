@@ -1,3 +1,5 @@
+SECURE DATA HIDING IN IMAGES USING STEGANOGRAPHY
+
 # AES-Steganography-WebApp
 
 A secure web application built with Flask that enables users to **hide encrypted messages** inside images using **AES encryption** and **steganography**. The tool allows users to encode and decode messages securely through a web interface.  

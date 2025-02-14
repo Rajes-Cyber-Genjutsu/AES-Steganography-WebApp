@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔐 Steganography Web App</h1>
+
+        <form action="/encode" method="post" enctype="multipart/form-data">
+            <h2>📤 Encode Message</h2>
+            <input type="file" name="image" required>
+            <input type="text" name="message" placeholder="Enter Secret Message" required autocomplete="off" autocorrect="off" spellcheck="false">
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <button type="submit">Encode</button>
+        </form>
+
+        <form action="/decode" method="post" enctype="multipart/form-data">
+            <h2>📥 Decode Message</h2>
+            <input type="file" name="image" required>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <button type="submit">Decode</button>
+        </form>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <div class="popup">
+            {% for category, message in messages %}
+            <p class="{{ category }}">{{ message }}</p>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endwith %}
+    </div>
+
+</body>
+</html>

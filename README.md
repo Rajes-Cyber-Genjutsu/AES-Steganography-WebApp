@@ -20,5 +20,5 @@ A secure web application built with Flask that enables users to **hide encrypted
 
 ### 🔹 Step 1: Clone the Repository  
 ```sh
-git clone https://github.com/YOUR_USERNAME/AES-WebApp-Steganography.git
-cd AES-WebApp-Steganography
+git clone https://github.com/YOUR_USERNAME/AES-Steganography-WebApp.git
+cd AES-Steganography-WebApp

@@ -14,14 +14,14 @@ A secure web application built with Flask that enables users to **hide encrypted
 - **Flask** (Web Framework)  
 - **PyCryptodome** (AES Encryption)  
 - **OpenCV** (Image Processing)  
-- **NumPy** (Image Array Manipulation)  
+- **NumPy** (Image Array Manipulation)
+
+###  Screenshots
+
+![Web App Screenshot](output/Stego-web-app-running-successfully.png)
 
 
 ### 🔹 Clone the Repository  
 ```sh
 git clone https://github.com/Rajes-CyberGenjutsu/AES-Steganography-WebApp.git
 cd AES-Steganography-WebApp
-
-
-
-![Web App Screenshot](output/Screenshot_2025-02-14_095414.png)

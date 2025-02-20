@@ -16,6 +16,29 @@ A secure web application built with Flask that enables users to **hide encrypted
 - **OpenCV** (Image Processing)  
 - **NumPy** (Image Array Manipulation)
 
+
+
+🛠️ Installation Steps
+1️⃣ Clone the Repository
+
+git clone https://github.com/Rajes-CyberGenjutsu/AES-Steganography-WebApp.git
+cd AES-Steganography-WebApp
+
+
+2️⃣ Install Required Dependencies
+
+pip install -r requirements.txt
+
+3️⃣ Run the Flask Application
+
+python app.py
+
+4️⃣ Open the Web Application
+
+Go to your browser and open:
+👉 http://127.0.0.1:5000/
+
+
 ###  Screenshots
 
 ![Web App Screenshot](output/Stego-web-app-running-successfully.png)

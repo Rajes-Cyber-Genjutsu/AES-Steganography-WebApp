@@ -24,4 +24,4 @@ cd AES-Steganography-WebApp
 
 
 
-![Web App Screenshot](output/Screenshot 2025-02-14 095414.png)
+![Web App Screenshot](output/Screenshot_2025-02-14_095414.png)

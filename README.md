@@ -48,3 +48,6 @@ Go to your browser and open:
 ```sh
 git clone https://github.com/Rajes-CyberGenjutsu/AES-Steganography-WebApp.git
 cd AES-Steganography-WebApp
+```  <!-- Close the code block properly -->
+
+

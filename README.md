@@ -44,10 +44,11 @@ Go to your browser and open:
 ![Web App Screenshot](output/Stego-web-app-running-successfully.png)
 
 
+
 ### 🔹 Clone the Repository  
 ```sh
 git clone https://github.com/Rajes-CyberGenjutsu/AES-Steganography-WebApp.git
 cd AES-Steganography-WebApp
-```  <!-- Close the code block properly -->
+```
 
 

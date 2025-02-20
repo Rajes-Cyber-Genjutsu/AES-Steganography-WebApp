@@ -17,7 +17,7 @@ A secure web application built with Flask that enables users to **hide encrypted
 - **NumPy** (Image Array Manipulation)
 
 
-###🔹 Clone the Repository  
+### 🔹 Clone the Repository  
 ```sh
 git clone https://github.com/Rajes-CyberGenjutsu/AES-Steganography-WebApp.git
 cd AES-Steganography-WebApp
